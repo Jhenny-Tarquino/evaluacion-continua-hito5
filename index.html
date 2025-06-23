@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FEXCO</title>
+
+</head>
+<body>
+    <section class="logo">
+  <img src="./logo/fexco-2025_semiwhite.svg" alt="" width="300">
+ </section> 
+</header>
+  <div class="video">
+        <video class="video-background" autoplay loop muted>
+          <source src="video/video-de-fondomp4_i7BAOWrg.mp4" type="video/mp4">
+        </video>
+    <nav class="menu_ham">
+        <div class="hamburguer" onclick="this.parentNode.classList.toggle('active')">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu_items">
+        <li><a href="html/inicio.html">INICIO</a></li>
+        <li><a href="html/entradas.html">ENTRADAS</a></li>
+        <li><a href="html/recinto-ferial.html">RECINTO FERIAL</a></li>
+         <li><a href="html/nuestros-ambientes.html">NUESTROS AMBIENTES</a></li>
+         <li><a href="html/conciertos.html">CONCIERTOS</a></li>
+         <li><a href="html/contactos.html">CONTACTOS</a></li>
+      </ul>
+      </nav>
+    
+       
+    <section class="texto-encima">
+          <h1 class="titulo__encima">
+            FERIA EXPOSICIÓN <br>
+            INTERNACIONAL DE <br>
+            COCHABAMBA
+          </h1>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer-section">
+          <h3>Atención al Cliente</h3>
+          <p>Lunes a Viernes: 8:00 - 18:00</p>
+          <p>Correo: contacto@fexco.com.bo</p>
+          <p>telf:69777799</p>
+        </div>
+        <div class="footer-section">
+          <h3>Términos y Condiciones</h3>
+          <p><a href="#">Política de privacidad</a></p>
+          <p><a href="#">Condiciones de uso</a></p>
+          <p><a href="#">Aviso legal</a></p>
+        </div>
+      </footer>
+      <script>
+  const burger = document.getElementById('hamburger');
+  const menu = document.querySelector('.menu_ham');
+  burger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+</body>
+</html>
